@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form - electric cars</title>
+    <link rel="stylesheet" href="styleform.css" type="text/css">
+  </head>
+
+<body>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div>
+  <h1 id="title">Survey form</h1>  
+  <br>
+  <br>
+  <p id="description">What do you think about electric cars?</p>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <form id="survey-form">
+      <label id="name-label">Name</label>
+      <br>
+      <input id="name" name="Name" type="text" placeholder="Abraham Lincoln" required>
+      <br>
+      <label id="email-label">Email</label>
+      <br>
+      <input id="email" name="Email" type="email" placeholder="abrahamlincoln@gmail.com" required>
+      <br>
+      <label id="number-label">Number of cars you had until now</label>
+      <br>
+      <input id="number" name="Number" type="number" min="0" max="7" placeholder="2">
+      <br>
+      <label>What electric car would you like to have?</label>
+      <br>
+      <select id="dropdown">
+        <option>None</option>
+        <option>Nissan</option>
+        <option>Renault</option>
+        <option>Tesla</option>
+        <option>Toyota</option>
+        <option>VolksWagen</option>
+      </select>
+      <br>
+      <p>Wich price do you think would be a fair one to purchase an e-car?</p>
+      <input type="radio" id="20K" name="price" value="20K">
+      <label for="male">around 20K$</label><br>
+      <input type="radio" id="40K" name="price" value="40K">
+      <label for="female">around 40K$</label><br>
+      <input type="radio" id="o60K" name="price" value="o60K">
+      <label for="other">over 60K$</label>
+
+      <p>How do you see the future of cars?</p>
+      <input type="checkbox" value="future">
+      <label>All cars will be electric in 10 years</label>
+      <br>
+      <input type="checkbox" value="future">
+      <label>Half of all cars will be electric in 10 years</label>
+      <br>
+      <input type="checkbox" value="future">
+      <label>There will be no change</label>
+      <br>
+      <br>
+    <label>Share with us your opinion about the future of e-cars</label>
+    <br>
+    <textarea></textarea>
+    <br>
+    <center><input id="submit" type="submit" value="Submit"></center>
+      
+
+  </form>
+  <br>
+  <br>
+</div>
+<br>
+<br>
+<footer id="footer">© All rights reserved</footer>
+</body>
+</html>

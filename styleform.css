@@ -1,0 +1,103 @@
+
+body {
+    background-color: rgb(226, 233, 220);
+    background-image: url("https://as1.ftcdn.net/jpg/02/74/47/44/500_F_274474400_sqKz6u77F9KGR72SgSnsktGgylAIcImL.jpg");
+
+    color: #ccc;
+}
+
+#title {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+#description {
+    text-align: center;
+    font-size: 25px;
+}
+
+div {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(211, 224, 19, 0.6);
+    padding-left: 50px;
+}
+
+input[type=text] {
+  width: 95%;
+  padding: 1px;
+  margin: 8px;
+  display: inline-block;
+  border: 5px solid rgb(6, 148, 37);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 95%;
+    padding: 12px;
+    margin: 8px;
+    display: inline-block;
+    border: 5px solid rgb(6, 148, 37);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=number] {
+    width: 95%;
+    padding: 12px;
+    margin: 8px;
+    display: inline-block;
+    border: 5px solid rgb(6, 148, 37);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=text], select {
+    width: 95%;
+    padding: 12px;
+    margin: 8px;
+    display: inline-block;
+    border: 5px solid rgb(6, 148, 37);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=checkbox] {
+    padding: 12px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid rgb(6, 148, 37);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=text], textarea {
+    width: 95%;
+    padding: 50px;
+    margin: 8px;
+    display: inline-block;
+    border: 5px solid rgb(6, 148, 37);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit]:hover {
+    background-color: #2bb431;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+
+#footer {
+     background-color: darkgreen;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
+    }
